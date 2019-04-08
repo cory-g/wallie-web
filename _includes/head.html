@@ -6,6 +6,9 @@
   <meta name="author" content="">
 
   <title>{{ site.data.global.siteTitle }}</title>
+  
+  <link rel="icon" type="image/png" href="{{ 'favicon-32x32.png' | relative_url }}" sizes="32x32" />
+  <link rel="icon" type="image/png" href="{{ 'favicon-16x16.png' | relative_url }}" sizes="16x16" />
 
   {% for s in site.data.headStyles %}
     {% if s.internal %}
