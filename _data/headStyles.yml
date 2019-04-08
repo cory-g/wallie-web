@@ -1,0 +1,12 @@
+- url: assets/vendor/bootstrap/css/bootstrap.min.css
+  internal: true
+- url: assets/vendor/fontawesome-free/css/all.min.css
+  internal: true
+- url: https://fonts.googleapis.com/css?family=Montserrat:400,700
+  internal: false
+- url: https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic
+  internal: false
+- url: assets/vendor/magnific-popup/magnific-popup.css
+  internal: true
+- url: assets/css/main.css
+  internal: true

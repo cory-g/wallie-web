@@ -1,0 +1,28 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top">
+
+  {% include mainNav.html %}
+  {% include header.html %}
+  {% include portfolioLoop.html %}
+  {% include about.html %}
+  {% include contact.html %}
+  {% include footer.html %}
+  {% include scrollButton.html %}
+  {% include modalsLoop.html %}
+
+  <div id="instafeed"></div>
+
+  {% for s in site.data.bodyScripts %}
+    <script src="{{ s | relative_url }}"></script>
+  {% endfor %}
+
+</body>
+
+</html>

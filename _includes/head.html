@@ -1,0 +1,18 @@
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Freelancer - Start Bootstrap Theme</title>
+
+  {% for s in site.data.headStyles %}
+    {% if s.internal %}
+      <link href="{{ s.url | relative_url }}" rel="stylesheet" type="text/css">
+    {% else %}
+      <link href="{{ s.url }}" rel="stylesheet" type="text/css">
+    {% endif %}
+  {% endfor %}
+
+</head>
