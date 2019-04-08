@@ -1,0 +1,12 @@
+- url: '#portfolio'
+  text: Portfolio
+  display: false
+- url: '#about'
+  text: About
+  display: false
+- url: '#contact'
+  text: Contact
+  display: false
+- url: '#footer'
+  text: Contact
+  display: true
