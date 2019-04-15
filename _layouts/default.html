@@ -12,25 +12,30 @@
   {% include header.html %}
 
 
-  {% comment %}
+  {% if site.data.display.portfolioLoop %}
   {% include portfolioLoop.html %}
-  {% endcomment %}
+  {% endif %}
 
-  {% comment %}
+  {% if site.data.display.about %}
   {% include about.html %}
-  {% endcomment %}
+  {% endif %}
 
-  {% comment %}
+  {% if site.data.display.contact %}
   {% include contact.html %}
-  {% endcomment %}
+  {% endif %}
 
 
+  {% if site.data.display.footer %}
   {% include footer.html %}
-  {% include scrollButton.html %}
+  {% endif %}
 
-  {% comment %}
+  {% if site.data.display.scrollButton %}
+  {% include scrollButton.html %}
+  {% endif %}
+
+  {% if site.data.display.modalsLoop %}
   {% include modalsLoop.html %}
-  {% endcomment %}
+  {% endif %}
 
   <div id="instafeed"></div>
 
