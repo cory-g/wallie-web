@@ -37,11 +37,7 @@
   {% include modalsLoop.html %}
   {% endif %}
 
-  <div id="instafeed"></div>
-
-  {% for s in site.data.bodyScripts %}
-    <script src="{{ s | relative_url }}"></script>
-  {% endfor %}
+  {% include bodyScripts.html %}
 
 </body>
 
