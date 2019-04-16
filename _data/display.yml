@@ -1,7 +1,16 @@
 menuButtonText: false
-portfolioLoop: false
+menuButtonTextString: 'Menu'
+
+portfolioLoop: true
+portfolioLoopTitle: "What I'm up to"
+portfolioLoopNoPostsText: "Nothing to see here yet!"
+
 about: false
+aboutTitle: 'About'
+
 contact: false
-modalsLoop: false
+contactTitle: 'Contact Me'
+
+modalsLoop: true
 scrollButton: true
 footer: true
