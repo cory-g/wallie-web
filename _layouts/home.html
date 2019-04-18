@@ -1,0 +1,24 @@
+---
+layout: default
+---
+{% include header.html %}
+
+{% if site.data.display.portfolioLoop %}
+{% include portfolioLoop.html %}
+{% endif %}
+
+{% if site.data.display.about %}
+{% include about.html %}
+{% endif %}
+
+{% if site.data.display.contact %}
+{% include contact.html %}
+{% endif %}
+
+{% if site.data.display.scrollButton %}
+{% include scrollButton.html %}
+{% endif %}
+
+{% if site.data.display.modalsLoop %}
+{% include modalsLoop.html %}
+{% endif %}

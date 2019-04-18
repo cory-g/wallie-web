@@ -1,7 +1,7 @@
 menuButtonText: false
 menuButtonTextString: 'Menu'
 
-portfolioLoop: true
+portfolioLoop: false
 portfolioLoopTitle: "What I'm up to"
 portfolioLoopNoPostsText: "Nothing to see here yet!"
 

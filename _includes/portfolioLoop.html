@@ -6,7 +6,11 @@
     <div class="row">
       {% assign numPosts = site.posts | size %}
       {% if numPosts > 0 %}
+
       {% for p in site.posts %}
+
+
+      {% comment %}
       <div class="col-md-6 col-lg-4">
         <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-{{ forloop.index }}">
           <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
@@ -17,6 +21,23 @@
           <img class="img-fluid" src="{{ p.image | relative_url }}" alt="">
         </a>
       </div>
+      {% endcomment %}
+
+
+
+      <div class="col-md-6 col-lg-4">
+        <a href="{{ p.url | relative_url }}">
+        <div class="cg-box">
+          <img class="img-fluid" src="{{ p.image | relative_url }}" alt="">
+            {% if p.category %}
+              <div class="ribbon"><span>{{ p.category }}</span></div>
+            {% endif %}
+        </div>
+        </a>
+
+      </div>
+
+
       {% endfor %}
       {% else %}
       <div class="col-12 text-center text-primary">

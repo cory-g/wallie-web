@@ -10,6 +10,7 @@
 @import "contact.scss";
 @import "footer.scss";
 @import "bootstrap-overrides.scss";
+@import "cg/post-ribbon";
 
 .profile-photo {
   border-radius: 50%;
@@ -21,3 +22,5 @@
     font-weight: 300;
   }
 }
+
+
